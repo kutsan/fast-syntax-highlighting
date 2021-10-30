@@ -10,7 +10,7 @@ Feature rich syntax highlighting for Zsh.
 
 <div style="width:100%;background-color:black;border:3px solid black;border-radius:6px;margin:5px 0;padding:2px 5px">
   <img
-    src="https://raw.githubusercontent.com/zdharma/fast-syntax-highlighting/master/images/highlight-much.png"
+    src="https://raw.githubusercontent.com/kutsan/fast-syntax-highlighting/master/images/highlight-much.png"
     alt="image could not be loaded"
     style="color:red;background-color:black;font-weight:bold"
   />
@@ -25,10 +25,10 @@ Feature rich syntax highlighting for Zsh.
 - [IRC Channel](#irc-channel)
 
 ### Other Contents
-- [License](https://github.com/zdharma/fast-syntax-highlighting/blob/master/LICENSE)
-- [Changelog](https://github.com/zdharma/fast-syntax-highlighting/blob/master/CHANGELOG.md)
-- [Theme Guide](https://github.com/zdharma/fast-syntax-highlighting/blob/master/THEME_GUIDE.md)
-- [Chroma Guide](https://github.com/zdharma/fast-syntax-highlighting/blob/master/CHROMA_GUIDE.adoc)
+- [License](https://github.com/kutsan/fast-syntax-highlighting/blob/master/LICENSE)
+- [Changelog](https://github.com/kutsan/fast-syntax-highlighting/blob/master/CHANGELOG.md)
+- [Theme Guide](https://github.com/kutsan/fast-syntax-highlighting/blob/master/THEME_GUIDE.md)
+- [Chroma Guide](https://github.com/kutsan/fast-syntax-highlighting/blob/master/CHROMA_GUIDE.adoc)
 
 # News
 
@@ -46,7 +46,7 @@ Feature rich syntax highlighting for Zsh.
 Clone the Repository.
 
 ```zsh
-git clone https://github.com/zdharma/fast-syntax-highlighting ~/path/to/fsh
+git clone https://github.com/kutsan/fast-syntax-highlighting ~/path/to/fsh
 ```
 
 And add the following to your `zshrc` file.
@@ -59,7 +59,7 @@ source ~/path/to/fsh/fast-syntax-highlighting.plugin.zsh
 Add the following to your `zshrc` file.
 
 ```zsh
-zinit light zdharma/fast-syntax-highlighting
+zinit light kutsan/fast-syntax-highlighting
 ```
 
 Here's an example of how to load the plugin together with a few other popular
@@ -71,7 +71,7 @@ prompt, in background:
 ```zsh
 zinit wait lucid for \
  atinit"ZINIT[COMPINIT_OPTS]=-C; zicompinit; zicdreplay" \
-    zdharma/fast-syntax-highlighting \
+    kutsan/fast-syntax-highlighting \
  blockf \
     zsh-users/zsh-completions \
  atload"!_zsh_autosuggest_start" \
@@ -83,7 +83,7 @@ zinit wait lucid for \
 Add the following to your `zshrc` file.
 
 ```zsh
-antigen bundle zdharma/fast-syntax-highlighting
+antigen bundle kutsan/fast-syntax-highlighting
 ```
 
 ### Zgen
@@ -92,7 +92,7 @@ Add the following to your `.zshrc` file in the same place you're doing
 your other `zgen load` calls in.
 
 ```zsh
-zgen load zdharma/fast-syntax-highlighting
+zgen load kutsan/fast-syntax-highlighting
 ```
 
 
@@ -101,7 +101,7 @@ zgen load zdharma/fast-syntax-highlighting
 Clone the Repository.
 
 ```zsh
-git clone https://github.com/zdharma/fast-syntax-highlighting.git \
+git clone https://github.com/kutsan/fast-syntax-highlighting.git \
   ${ZSH_CUSTOM:-$HOME/.oh-my-zsh/custom}/plugins/fast-syntax-highlighting
 ```
 
@@ -115,7 +115,7 @@ Switch themes via `fast-theme {theme-name}`.
 
 <div style="width:100%;background-color:black;border:3px solid black;border-radius:6px;margin:5px 0;padding:2px 5px">
   <img
-    src="https://raw.githubusercontent.com/zdharma/fast-syntax-highlighting/master/images/theme.png"
+    src="https://raw.githubusercontent.com/kutsan/fast-syntax-highlighting/master/images/theme.png"
     alt="image could not be loaded"
     style="color:red;background-color:black;font-weight:bold"
   />
@@ -131,7 +131,7 @@ Comparing to the project `zsh-users/zsh-syntax-highlighting` (the upper line):
 
 <div style="width:100%;background-color:black;border:3px solid black;border-radius:6px;margin:5px 0;padding:2px 5px">
   <img
-    src="https://raw.githubusercontent.com/zdharma/fast-syntax-highlighting/master/images/parameter.png"
+    src="https://raw.githubusercontent.com/kutsan/fast-syntax-highlighting/master/images/parameter.png"
     alt="image could not be loaded"
     style="color:red;background-color:black;font-weight:bold"
   />
@@ -139,7 +139,7 @@ Comparing to the project `zsh-users/zsh-syntax-highlighting` (the upper line):
 
 <div style="width:100%;background-color:black;border:3px solid black;border-radius:6px;margin:5px 0;padding:2px 5px">
   <img
-    src="https://raw.githubusercontent.com/zdharma/fast-syntax-highlighting/master/images/in_string.png"
+    src="https://raw.githubusercontent.com/kutsan/fast-syntax-highlighting/master/images/in_string.png"
     alt="image could not be loaded"
     style="color:red;background-color:black;font-weight:bold"
   />
@@ -149,7 +149,7 @@ Comparing to the project `zsh-users/zsh-syntax-highlighting` (the upper line):
 
 <div style="width:100%;background-color:black;border:3px solid black;border-radius:6px;margin:5px 0;padding:2px 5px">
   <img
-    src="https://raw.githubusercontent.com/zdharma/fast-syntax-highlighting/master/images/brackets.gif"
+    src="https://raw.githubusercontent.com/kutsan/fast-syntax-highlighting/master/images/brackets.gif"
     alt="image could not be loaded"
     style="color:red;background-color:black;font-weight:bold"
   />
@@ -161,7 +161,7 @@ Comparing to the project `zsh-users/zsh-syntax-highlighting` (the upper line):
 
 <div style="width:100%;background-color:black;border:3px solid black;border-radius:6px;margin:5px 0;padding:2px 5px">
   <img
-    src="https://raw.githubusercontent.com/zdharma/fast-syntax-highlighting/master/images/cplx_cond.png"
+    src="https://raw.githubusercontent.com/kutsan/fast-syntax-highlighting/master/images/cplx_cond.png"
     alt="image could not be loaded"
     style="color:red;background-color:black;font-weight:bold"
   />
@@ -173,7 +173,7 @@ Exact highlighting that recognizes quotings.
 
 <div style="width:100%;background-color:black;border:3px solid black;border-radius:6px;margin:5px 0;padding:2px 5px">
   <img
-    src="https://raw.githubusercontent.com/zdharma/fast-syntax-highlighting/master/images/ideal-string.png"
+    src="https://raw.githubusercontent.com/kutsan/fast-syntax-highlighting/master/images/ideal-string.png"
     alt="image could not be loaded"
     style="color:red;background-color:black;font-weight:bold"
   />
@@ -184,7 +184,7 @@ Exact highlighting that recognizes quotings.
 
 <div style="width:100%;background-color:black;border:3px solid black;border-radius:6px;margin:5px 0;padding:2px 5px">
   <img
-    src="https://raw.githubusercontent.com/zdharma/fast-syntax-highlighting/master/images/herestring.png"
+    src="https://raw.githubusercontent.com/kutsan/fast-syntax-highlighting/master/images/herestring.png"
     alt="image could not be loaded"
     style="color:red;background-color:black;font-weight:bold"
   />
@@ -196,7 +196,7 @@ Comparing to the project `zsh-users/zsh-syntax-highlighting` (the upper line):
 
 <div style="width:100%;background-color:black;border:3px solid black;border-radius:6px;margin:5px 0;padding:2px 5px">
   <img
-    src="https://raw.githubusercontent.com/zdharma/fast-syntax-highlighting/master/images/execfd_cmp.png"
+    src="https://raw.githubusercontent.com/kutsan/fast-syntax-highlighting/master/images/execfd_cmp.png"
     alt="image could not be loaded"
     style="color:red;background-color:black;font-weight:bold"
   />
@@ -206,7 +206,7 @@ Comparing to the project `zsh-users/zsh-syntax-highlighting` (the upper line):
 
 <div style="width:100%;background-color:black;border:3px solid black;border-radius:6px;margin:5px 0;padding:2px 5px">
   <img
-    src="https://raw.githubusercontent.com/zdharma/fast-syntax-highlighting/master/images/for-loop-cmp.png"
+    src="https://raw.githubusercontent.com/kutsan/fast-syntax-highlighting/master/images/for-loop-cmp.png"
     alt="image could not be loaded"
     style="color:red;background-color:black;font-weight:bold"
   />
@@ -218,7 +218,7 @@ Comparing to the project `zsh-users/zsh-syntax-highlighting` (the upper 2 lines)
 
 <div style="width:100%;background-color:black;border:3px solid black;border-radius:6px;margin:5px 0;padding:2px 5px">
   <img
-    src="https://raw.githubusercontent.com/zdharma/fast-syntax-highlighting/master/images/function.png"
+    src="https://raw.githubusercontent.com/kutsan/fast-syntax-highlighting/master/images/function.png"
     alt="image could not be loaded"
     style="color:red;background-color:black;font-weight:bold"
   />
@@ -230,7 +230,7 @@ Comparing to the project `zsh-users/zsh-syntax-highlighting` (the upper line):
 
 <div style="width:100%;background-color:black;border:3px solid black;border-radius:6px;margin:5px 0;padding:2px 5px">
   <img
-    src="https://raw.githubusercontent.com/zdharma/fast-syntax-highlighting/master/images/eval_cmp.png"
+    src="https://raw.githubusercontent.com/kutsan/fast-syntax-highlighting/master/images/eval_cmp.png"
     alt="image could not be loaded"
     style="color:red;background-color:black;font-weight:bold"
   />
@@ -242,21 +242,21 @@ Highlighting that is specific for a given command.
 
 <div style="width:100%;background-color:black;border:3px solid black;border-radius:6px;margin:5px 0;padding:2px 5px">
   <img
-    src="https://raw.githubusercontent.com/zdharma/fast-syntax-highlighting/master/images/git_chroma.png"
+    src="https://raw.githubusercontent.com/kutsan/fast-syntax-highlighting/master/images/git_chroma.png"
     alt="image could not be loaded"
     style="color:red;background-color:black;font-weight:bold"
   />
 </div>
 
-The [chromas](https://github.com/zdharma/fast-syntax-highlighting/tree/master/chroma)
+The [chromas](https://github.com/kutsan/fast-syntax-highlighting/tree/master/chroma)
 that are enabled by default can be found
-[here](https://github.com/zdharma/fast-syntax-highlighting/blob/master/fast-highlight#L166).
+[here](https://github.com/kutsan/fast-syntax-highlighting/blob/master/fast-highlight#L166).
 
 ### Math-mode highlighting
 
 <div style="width:100%;background-color:black;border:3px solid black;border-radius:6px;margin:5px 0;padding:2px 5px">
   <img
-    src="https://raw.githubusercontent.com/zdharma/fast-syntax-highlighting/master/images/math.gif"
+    src="https://raw.githubusercontent.com/kutsan/fast-syntax-highlighting/master/images/math.gif"
     alt="image could not be loaded"
     style="color:red;background-color:black;font-weight:bold"
   />
@@ -266,7 +266,7 @@ that are enabled by default can be found
 
 <div style="width:100%;background-color:black;border:3px solid black;border-radius:6px;margin:5px 0;padding:2px 5px">
   <img
-    src="https://raw.githubusercontent.com/zdharma/fast-syntax-highlighting/master/images/zcalc.png"
+    src="https://raw.githubusercontent.com/kutsan/fast-syntax-highlighting/master/images/zcalc.png"
     alt="image could not be loaded"
     style="color:red;background-color:black;font-weight:bold"
   />
